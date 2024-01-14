@@ -2,6 +2,6 @@
 clear
 echo "Enter Country's name"
 read name
-echo "Country         Capital"
+echo -e "\nCountry         Capital"
 awk "/$name/{print}" country.txt
 
